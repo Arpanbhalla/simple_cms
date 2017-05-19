@@ -1,0 +1,30 @@
+<% if !flash[:notice].blank? %>
+<%= flash[:notice  ] %>
+<% end %>
+<h1>Edit Subject</h1> 
+<%= link_to("All Subjects", subjects_path)  %> <br /><br />
+
+<table>
+    <tr>
+        <td>Subject Name</td>
+    </tr>
+    <tr>
+        <td><%= @subject.name %></td>
+    </tr>
+    <tr>
+    <td>
+    <hr></td>
+    </tr>
+    <tr colspan="2" >
+        <td>Subject Position : <%= @subject.position %></td>
+    <td >Subject Visiblity : <%= @subject.visible ? 'Yes' : 'No' %></td>
+    </tr>
+    <tr>
+    <td>
+    <hr></td>
+    </tr>
+    <tr>
+    <td>Subject Created At : <%= @subject.created_at %> && Subject Updated at : <%= @subject.updated_at %></td>
+    </tr>
+
+</table>

@@ -1,0 +1,18 @@
+<h1>Add new Subject</h1>
+
+<%= form_for(@subject, :url => subjects_path, :method => 'post' ) do |f| %>
+<table>
+    <tr>
+        <td>Name :</td><td><%= f.text_field(:name) %></td>
+    </tr>
+    <tr>
+        <td>Position :</td><td><%= f.number_field(:position) %></td>
+    </tr>
+    <tr>
+        <td>Visible :</td><td><%= f.text_field(:visible) %></td>
+    </tr>
+    <tr>
+    <td><%= submit_tag("Create") %></td>
+    </tr>
+</table>
+<% end %>
