@@ -3783,3 +3783,2020 @@ Processing by SubjectsController#index as HTML
 Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-05-19 22:14:10 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb (4.9ms)
+Completed 200 OK in 26ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-19 22:14:15 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/pages"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (7.6ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.5ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.8ms)
+Started GET "/pages" for 127.0.0.1 at 2017-05-19 22:16:43 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 363ms (Views: 333.5ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-19 22:20:57 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-19 22:22:29 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 254ms (Views: 223.4ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-19 22:22:34 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.8ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8363530219080587145);[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(8363530219080587145)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:10:38 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (2.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 302ms (Views: 265.6ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/subjects" for 127.0.0.1 at 2017-05-20 12:10:56 +1000
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (1.5ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = $1[0m  [["subject_id", 7]]
+  Rendered subjects/index.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 87ms (Views: 64.8ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/subjects" for 127.0.0.1 at 2017-05-20 12:11:44 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (0.9ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = $1[0m  [["subject_id", 7]]
+  Rendered subjects/index.html.erb within layouts/application (52.4ms)
+Completed 200 OK in 302ms (Views: 273.2ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:11:53 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 39ms (Views: 30.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:12:59 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:13:38 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:14:29 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/arpanbhalla/Desktop/ruby-on-rails/simple_cms/app/views/pages/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+...uffer.append=( link_to ("Show","#")  );@output_buffer.safe_a...
+...                               ^
+/Users/arpanbhalla/Desktop/ruby-on-rails/simple_cms/app/views/pages/index.html.erb:26: syntax error, unexpected ')', expecting keyword_end
+...ppend=( link_to ("Show","#")  );@output_buffer.safe_append='
+...                               ^):
+  
+app/views/pages/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+app/views/pages/index.html.erb:26: syntax error, unexpected ')', expecting keyword_end
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.4ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.7ms)
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:14:42 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 44ms (Views: 41.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:15:35 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:16:04 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 38ms (Views: 35.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/subjects" for 127.0.0.1 at 2017-05-20 12:16:16 +1000
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (1.4ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = $1[0m  [["subject_id", 7]]
+  Rendered subjects/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 58ms (Views: 52.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:17:21 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:17:48 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:19:04 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:19:59 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:20:48 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:21:24 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:22:16 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:22:30 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:22:32 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:22:54 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:23:15 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:23:36 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:23:54 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:24:15 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:24:20 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (6.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 60ms (Views: 50.7ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2017-05-20 12:25:37 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (7.9ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.2ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (98.7ms)
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:26:14 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 49ms (Views: 33.8ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 12:26:16 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 65ms (Views: 50.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 12:31:37 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 12:32:51 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 25.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 12:34:34 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 12:35:50 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+
+  
+SyntaxError (/Users/arpanbhalla/Desktop/ruby-on-rails/simple_cms/app/views/pages/show.html.erb:25: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/arpanbhalla/Desktop/ruby-on-rails/simple_cms/app/views/pages/show.html.erb:27: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/pages/show.html.erb:25: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/show.html.erb:27: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.1ms)
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 12:36:18 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:36:20 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (11.7ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 67ms (Views: 50.8ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/pages/2" for 127.0.0.1 at 2017-05-20 12:36:23 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 53.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:36:27 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (4.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 33ms (Views: 23.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 12:36:28 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 46ms (Views: 40.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:36:30 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (2.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 58ms (Views: 52.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 12:37:41 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 12:37:43 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 55ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 12:37:46 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at 2017-05-20 12:37:55 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at 2017-05-20 12:38:45 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at 2017-05-20 12:39:09 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at 2017-05-20 12:45:32 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 42ms (Views: 28.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 12:45:35 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 57ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 12:45:51 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 291ms (Views: 250.7ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 12:46:10 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 12:47:01 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 17:46:48 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 83ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-20 17:47:02 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 17:47:12 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (5.5ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 45ms (Views: 36.3ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 17:47:14 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-20 17:53:25 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/routes" for 127.0.0.1 at 2017-05-20 17:53:33 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/routes"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered collection of /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (9.3ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.6ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.9ms)
+Started GET "/" for 127.0.0.1 at 2017-05-20 17:55:19 +1000
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 17:55:24 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 77ms (Views: 48.1ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:13:11 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 77ms (Views: 72.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:13:24 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gG0wmWoi7JJZKDtg92E8CNrM5noTlHkrAOfObntKLdYIr/xaBrHVhOV1r84YREbjRM5E57fjTW1rMtHcEM9hUg==", "page"=>{"position"=>"3", "name"=>"Test", "permalink"=>"Test", "visible"=>"false"}, "commit"=>"Create"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/controllers/pages_controller.rb:31:in `create'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.6ms)
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:15:15 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gG0wmWoi7JJZKDtg92E8CNrM5noTlHkrAOfObntKLdYIr/xaBrHVhOV1r84YREbjRM5E57fjTW1rMtHcEM9hUg==", "page"=>{"position"=>"3", "name"=>"Test", "permalink"=>"Test", "visible"=>"false"}, "commit"=>"Create"}
+Unpermitted parameter: permalink
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 309ms (Views: 246.6ms | ActiveRecord: 7.2ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:15:19 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D0EUF5c0DkmMW32v7SRzl21vGhMmHZqbuzEfoUeynhZ71JM8RkbUDSdCwm8H1DdYhfQdK2j4/e4CYXdoYJ9Ngw==", "page"=>{"position"=>"3", "name"=>"Test", "permalink"=>"", "visible"=>"false"}, "commit"=>"Create"}
+Unpermitted parameter: permalink
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:15:29 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (1.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:15:31 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:15:40 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZPYBIL0aqd7Od2ACAZ4NMliABBVBb/D5lxVd7QcCnKrsNM3j0YmQyHIq9Kzuu3fZxoKmiOUYxL/8wEJfbIfQLg==", "page"=>{"position"=>"3", "name"=>"Test", "permalink"=>"Test", "visible"=>"false"}, "commit"=>"Create"}
+Unpermitted parameter: permalink
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 44ms (Views: 37.0ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:17:38 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1H+tWwN8E6zuQQ9uwMo3w+iShjzeAM7vHBAiYpGgBvig6ipw0g7J6EVYsK4qOnMMAAmBBJDlqZqlQEqrto3VbQ==", "page"=>{"position"=>"3", "name"=>"Test", "permalink"=>"", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 277ms (Views: 223.8ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:17:41 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:17:43 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:17:50 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xS/QOlZmGUM5sbGBNWQN8N+WCwOdiez4QpoT4Y4NdG9N7Rz5OvUgVYXsJS/aQXcbQZSpnjn+2L4pTwxT5Yg46w==", "page"=>{"position"=>"22", "name"=>"sdcsdc", "permalink"=>"ssdfsdd", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 48ms (Views: 39.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:26:39 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 268ms (Views: 234.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:26:47 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:26:55 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CHWaX4xIStqHWBJAkl7TlgAoS+kKSR8H+0deh+g8a5CAt1ac4NtzzDsFhu59e6l9nirpdK4+K0GQkkE1g7knFA==", "page"=>{"position"=>"4", "name"=>"jhbhjbhjkbjh", "permalink"=>"hjhjbhbhb", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 55ms (Views: 34.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:32:34 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 258ms (Views: 226.2ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:32:37 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 39ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:32:45 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jjREV15xjJObwxqORmg2CuFR6a6WDj1m/L7OMkeSfUYG9oiUMuK1hSeejiCpTUzhf1NLMzJ5CSCXa9GALBcxwg==", "page"=>{"position"=>"4", "name"=>"jkbjkn", "permalink"=>"jnjn", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 50ms (Views: 29.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:34:15 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7GXeEC0TgG8RagWG5qUH+xMMh6q0VEPO7wAWq348LI2Y8Fk7/GFaK7pzukYMVUM0+5eAkvqxJLtWUH5iWRH/GA==", "page"=>{"position"=>"4", "name"=>"jkbjkn", "permalink"=>"jnjn", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 34ms (Views: 30.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:35:48 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:35:50 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 48ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:36:00 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K4oRd3Gv5dIVZj3DfJPaCqraJuojFfT+z7YDbTRGT7ajSN20HTzcxKk7qW2TtqDhNNiEd4diwLikYxzfX8MDMg==", "page"=>{"position"=>"7", "name"=>"jjinjk", "permalink"=>"njknjk", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 36ms (Views: 30.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:44:01 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"szta3UI+BeksXPYVygXcZisTiajpkqHgYnRQM8EQ3rvHrt32k0zfrYdFSdUg9Zipw4iOkKd3xpXbJDj65j0NLg==", "page"=>{"position"=>"3", "name"=>"sfdsfds", "permalink"=>"sdfdsfds", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 98193ms (Views: 215.8ms | ActiveRecord: 7.2ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:45:53 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aoJQ9FKnOnaXyVmxWofI548TJJCYcDN4rCje2HE0Wt4eF9ffg9XgMjzQ5nGwd4woZ4gjqNaVVA0VeLYRVhmJSw==", "page"=>{"position"=>"3", "name"=>"sfdsfds", "permalink"=>"sdfdsfds", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 273ms (Views: 219.4ms | ActiveRecord: 7.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:45:56 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PpcAPZnu6n5daHuJwLec0PnCKh2MnSpanDnyhzzqSflKAocWSJwwOvZxxEkqR9gfEVktJcJ4TS8laZpOG8eabA==", "page"=>{"position"=>"3", "name"=>"sfdsfds", "permalink"=>"sdfdsfds", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:45:58 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (1.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:46:00 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:46:08 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ev6UscuJCL9zURLFlo8oiWg5JBM0E1hEO5Sq4FTxq2SaPFhypxoxqc8Mhmt5qlJi9juGjpBkbAJQQbVSP3Tn4A==", "page"=>{"position"=>"555", "name"=>"hbhjbhjb", "permalink"=>"hbhbhjhb", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.7ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 57ms (Views: 46.4ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:47:11 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 71ms (Views: 54.1ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:47:53 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 262ms (Views: 220.9ms | ActiveRecord: 6.1ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:48:11 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZYnejtJ4RkQFcWMGk/ZJfZRTLOuhWOqxnH7bBFjEFnftSxJNvut/Urks96h80zOWClGOdgUv3vf3q8S2M0Fa8w==", "page"=>{"position"=>"112", "name"=>"asdfgh", "permalink"=>"test", "visible"=>"false"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21068ms (Views: 22.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:49:04 +1000
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:49:18 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 260ms (Views: 229.0ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:49:21 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:49:32 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"deJbjeZSRStt7bdOi3s3+j+XbLfEtKiIJQ6ynIeNDwD9IJdOisF8PdGwI+BkXk0RoZXOKmDDnM5O260u7AhDhA==", "page"=>{"position"=>"21", "name"=>"qwert", "permalink"=>"qwer", "visible"=>"false"}, "commit"=>"Create"}
+Completed   in 27293ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:54:52 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 254ms (Views: 220.4ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:54:54 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:55:05 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5Srozt+IZ4cHdS/WQz5IskA09awOEZhC8H9UM/e3x+Zt6CQNsxtekbsou3isGzJZ3jZXMapmrASbqkuBnDKLYg==", "page"=>{"position"=>"12", "name"=>"qwerty", "permalink"=>"qwerty", "visible"=>"false", "subject_id"=>"2"}, "commit"=>"Create"}
+Completed   in 9871ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:55:36 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 262ms (Views: 234.0ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 18:55:39 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:55:49 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"if8NNcEmnCHqTDtSDS8jNW2Pj3QwPCMDruHXNtp05U0BPcH2rbWlN1YRr/ziClne840t6ZRLF0XFNMiEsfGpyQ==", "page"=>{"position"=>"21", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"2"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (1.8ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 77ms (Views: 28.5ms | ActiveRecord: 12.8ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:56:09 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u3iNP57joQV/+HUtFrBI4l997hMIpAesESpdWZz9dq3P7QoUT5F7QdThyu38QAwtt+bpK0ZBYNmoejWQu9ClOA==", "page"=>{"position"=>"21", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"1"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:56:41 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/ely5MpSXp+i8LJqGpLg6mSdgkkrTcHIDPAAM1n9ekuJfPXPGyCE2wnpDarwYqQljAaFcWWopr21oGj6ftCp3g==", "page"=>{"position"=>"21", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"1"}, "commit"=>"Create"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 294ms (Views: 226.0ms | ActiveRecord: 9.5ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 18:56:49 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BmQpTA5KIkOtDJv3Evsyd3s0dj7JiLZ+NY9aqL6Eu1dy8a5n3zj4BwYVJDf4C3a4k69xBodt0QuM3zJhmalowg==", "page"=>{"position"=>"21", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.8ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (6.3ms)[0m  [1m[32mINSERT INTO "pages" ("subject_id", "name", "permalink", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["subject_id", 7], ["name", "qwerty"], ["permalink", "Test"], ["position", 21], ["created_at", "2017-05-20 08:56:49.205823"], ["updated_at", "2017-05-20 08:56:49.205823"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 20ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:56:49 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2017-05-20 18:56:59 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 46ms (Views: 39.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 18:57:03 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (2.7ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 66ms (Views: 60.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2017-05-20 20:49:51 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 40ms (Views: 35.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 20:49:59 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 49ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 20:50:12 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1bD8kUmMJwzxNKDxgZKWuc0m7uWxVB5RUhf2QctdowBdcjBSJR8eGk1pNF9ut+xSUyRMeBUjKhc5wunzoNjvhA==", "page"=>{"position"=>"23", "name"=>"dssdvsd", "permalink"=>"dsdsv", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (4.3ms)[0m  [1m[32mINSERT INTO "pages" ("subject_id", "name", "permalink", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["subject_id", 7], ["name", "dssdvsd"], ["permalink", "dsdsv"], ["position", 23], ["created_at", "2017-05-20 10:50:12.494232"], ["updated_at", "2017-05-20 10:50:12.494232"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 14ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 20:50:12 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/subjects" for 127.0.0.1 at 2017-05-20 20:50:33 +1000
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = $1[0m  [["subject_id", 7]]
+  Rendered subjects/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 39ms (Views: 34.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/subjects/7" for 127.0.0.1 at 2017-05-20 20:50:47 +1000
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering subjects/show.html.erb within layouts/application
+  Rendered subjects/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 58ms (Views: 53.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/subjects" for 127.0.0.1 at 2017-05-20 20:50:55 +1000
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (0.8ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = $1[0m  [["subject_id", 7]]
+  Rendered subjects/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 81ms (Views: 76.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 20:51:04 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2017-05-20 20:51:07 +1000
+Processing by PagesController#new as HTML
+  Rendering pages/new.html.erb within layouts/application
+  Rendered pages/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 60ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2017-05-20 20:51:23 +1000
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6f/t61AMrp1ZeQuCwuQOs+to6sPo1OnvKOKXy5mqqz1hPSEoPJ+Xi+UknywtwXRYdWpIXkyj3alDN4h58i/nuQ==", "page"=>{"position"=>"4543", "name"=>"Aryana ", "permalink"=>"fdvdfvd", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Create"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.5ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "pages" ("subject_id", "name", "permalink", "position", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["subject_id", 7], ["name", "Aryana "], ["permalink", "fdvdfvd"], ["position", 4543], ["created_at", "2017-05-20 10:51:23.494423"], ["updated_at", "2017-05-20 10:51:23.494423"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 14ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 20:51:23 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (1.8ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 46ms (Views: 40.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-05-20 20:51:41 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (4.9ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.4ms)
+Started GET "/aubjects" for 127.0.0.1 at 2017-05-20 20:51:55 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/aubjects"):
+  
+actionpack (5.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.3) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.3) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [18 times] (3.8ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.0ms)
+Started GET "/subjects" for 127.0.0.1 at 2017-05-20 20:52:01 +1000
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = $1[0m  [["subject_id", 7]]
+  Rendered subjects/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/subjects" for 127.0.0.1 at 2017-05-20 20:56:17 +1000
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (0.5ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "pages" WHERE "pages"."subject_id" = $1[0m  [["subject_id", 7]]
+  Rendered subjects/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 45ms (Views: 38.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 20:56:25 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 37ms (Views: 28.8ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/pages/1/edit" for 127.0.0.1 at 2017-05-20 20:56:27 +1000
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `page' for #<PagesController:0x007fac85109210>):
+  
+app/controllers/pages_controller.rb:13:in `edit'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (117.6ms)
+Started GET "/pages/1/edit" for 127.0.0.1 at 2017-05-20 20:56:48 +1000
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/1/edit" for 127.0.0.1 at 2017-05-20 21:03:12 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 263ms (Views: 214.4ms | ActiveRecord: 7.6ms)
+
+
+Started PATCH "/pages/1" for 127.0.0.1 at 2017-05-20 21:03:20 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uudv5Vl/EGjDXC1Rb3uHgUEjN3VlyifR/gC5CQ2T7GfOcujOiA3KLGhFkpGFi8NOqbgwTSsvQKRHUNHAKr4/8g==", "page"=>{"position"=>"420", "name"=>"First page", "permalink"=>"First", "visible"=>"true", "subject_id"=>"1"}, "commit"=>"Edit", "id"=>"1"}
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.5ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 61ms (Views: 26.4ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:03:27 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/2/edit" for 127.0.0.1 at 2017-05-20 21:03:38 +1000
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/pages/2" for 127.0.0.1 at 2017-05-20 21:03:46 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ptHMJDRiu49wbCPW1qlsDXLFFIaDUuuK0pCZhrf00M3nKJOHQITClVyc65ZDEN3MReJBelpxOvbyYheUVHLuzw==", "page"=>{"position"=>"2234234324324324", "name"=>"Second page", "permalink"=>"Second", "visible"=>"true", "subject_id"=>"1"}, "commit"=>"Edit", "id"=>"2"}
+  [1m[36mPage Load (0.8ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 37ms (Views: 28.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pages/2" for 127.0.0.1 at 2017-05-20 21:05:02 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 51ms (Views: 27.2ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:05:08 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/2/edit" for 127.0.0.1 at 2017-05-20 21:05:10 +1000
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (1.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 63ms (Views: 56.8ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/pages/2" for 127.0.0.1 at 2017-05-20 21:05:14 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"caHp/S+cmuelGOIqK/1L8pCABWwCjjLIpAfAhoMCg2cwWLZeW3rj/YnoKmq+RPozp6dQkNut47SE9U6UYIS9ZQ==", "page"=>{"position"=>"200", "name"=>"Second page", "permalink"=>"Second", "visible"=>"true", "subject_id"=>"1"}, "commit"=>"Edit", "id"=>"2"}
+  [1m[36mPage Load (1.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (2.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.5ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 70ms (Views: 45.2ms | ActiveRecord: 4.8ms)
+
+
+Started PATCH "/pages/2" for 127.0.0.1 at 2017-05-20 21:05:18 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zuCZJVpUwIj0NFR44LvD5psXfMaMUdHIY7TzKUtJ+ri6dR4OiyYazF8t67gKS4cpc4x7/sK0tr3a5JvgbGQpLQ==", "page"=>{"position"=>"200", "name"=>"Second page", "permalink"=>"Second", "visible"=>"true", "subject_id"=>"1"}, "commit"=>"Edit", "id"=>"2"}
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.5ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 47ms (Views: 35.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/pages/" for 127.0.0.1 at 2017-05-20 21:05:26 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 38ms (Views: 35.1ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+Started GET "/pages/1/edit" for 127.0.0.1 at 2017-05-20 21:09:07 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 278ms (Views: 235.2ms | ActiveRecord: 6.1ms)
+
+
+Started PATCH "/pages/1" for 127.0.0.1 at 2017-05-20 21:09:23 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GsgoExsedNHq2jDTTb7iM5ZQC0WkVRU5BBPiqEFQPBRuXa84ymyulUHDjxOnTqb8fssMfeqwcky9Q4phZn3vgQ==", "page"=>{"position"=>"1000", "name"=>"First page", "permalink"=>"First", "visible"=>"true", "subject_id"=>"7"}, "commit"=>"Edit", "id"=>"1"}
+  [1m[36mPage Load (1.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.5ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (1.7ms)[0m  [1m[33mUPDATE "pages" SET "position" = $1, "subject_id" = $2, "updated_at" = $3 WHERE "pages"."id" = $4[0m  [["position", 1000], ["subject_id", 7], ["updated_at", "2017-05-20 11:09:23.575160"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/1
+Completed 302 Found in 41ms (ActiveRecord: 12.2ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2017-05-20 21:09:23 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 25ms (Views: 21.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:09:26 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 53ms (Views: 48.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pages/2/edit" for 127.0.0.1 at 2017-05-20 21:09:35 +1000
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 49ms (Views: 45.6ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/pages/2" for 127.0.0.1 at 2017-05-20 21:09:48 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6pX+Gs3C7yLJh6tbmybcplVNnlJXfHq3OZQ+dhZTIRerbKG5uSSWOOV3YxsOn21nYmrLro5fq8sZZrBk9dUfFQ==", "page"=>{"position"=>"2200002", "name"=>"Second page", "permalink"=>"Second", "visible"=>"true", "subject_id"=>"7"}, "commit"=>"Edit", "id"=>"2"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.8ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[33mUPDATE "pages" SET "position" = $1, "subject_id" = $2, "updated_at" = $3 WHERE "pages"."id" = $4[0m  [["position", 2200002], ["subject_id", 7], ["updated_at", "2017-05-20 11:09:48.630819"], ["id", 2]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/2
+Completed 302 Found in 17ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/pages/2" for 127.0.0.1 at 2017-05-20 21:09:48 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:09:50 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (6.8ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 82ms (Views: 73.2ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/pages/3/edit" for 127.0.0.1 at 2017-05-20 21:09:58 +1000
+Processing by PagesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (2.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/edit.html.erb within layouts/application
+  Rendered pages/edit.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 76ms (Views: 67.3ms | ActiveRecord: 2.0ms)
+
+
+Started PATCH "/pages/3" for 127.0.0.1 at 2017-05-20 21:10:11 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTlYHv1qf0wOW9rYTuEepm/uQsb3rkn0+tWvID0OxiqgrMzPQ199ntqRcg3wz2wV8PG3cpssVZw+BksJcfIaWw==", "page"=>{"position"=>"213213213213", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Edit", "id"=>"3"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.2ms)
+
+
+  
+ActiveModel::RangeError (213213213213 is out of range for ActiveModel::Type::Integer with limit 4):
+  
+app/controllers/pages_controller.rb:19:in `update'
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/arpanbhalla/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.7ms)
+Started PATCH "/pages/3" for 127.0.0.1 at 2017-05-20 21:10:25 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0qTLTjUnZh9dVDlCNuh4BdfcV9LMzzYZwhJMcO/Ll0SmMUxl5FW8W/ZNhoLcGDzKP0dQ6oIqUWx7QiS5yOZE0Q==", "page"=>{"position"=>"21321321", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Edit", "id"=>"3"}
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.7ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "pages" SET "position" = $1, "updated_at" = $2 WHERE "pages"."id" = $3[0m  [["position", 21321321], ["updated_at", "2017-05-20 11:10:25.610430"], ["id", 3]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/3
+Completed 302 Found in 18ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2017-05-20 21:10:25 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:10:28 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 49ms (Views: 44.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:12:18 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 55ms (Views: 34.3ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/pages/4/delete" for 127.0.0.1 at 2017-05-20 21:12:24 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 45.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/4/delete" for 127.0.0.1 at 2017-05-20 21:14:22 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 44ms (Views: 25.5ms | ActiveRecord: 4.6ms)
+
+
+Started PATCH "/pages/4" for 127.0.0.1 at 2017-05-20 21:14:25 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QaAL1KL/smumQF1g9AKwt+YZn+g1xemdsl9GbFfmeFw1NYz/c41oLw1Z4qAe8vR4DoKY0HsgjugLDy6lcMuryQ==", "page"=>{"position"=>"23", "name"=>"dssdvsd", "permalink"=>"dsdsv", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"4"}
+  [1m[36mPage Load (1.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/4
+Completed 302 Found in 28ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/pages/4" for 127.0.0.1 at 2017-05-20 21:14:25 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 41ms (Views: 34.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:14:28 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (2.0ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 64ms (Views: 58.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pages/4/delete" for 127.0.0.1 at 2017-05-20 21:14:30 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/pages/4" for 127.0.0.1 at 2017-05-20 21:14:31 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5XSTspGAAX5ZAd0/mIFxQ6Z4rrfjhie1eJThys7UU45uIhAuQR43k0jYF05nxkhdH/GXWqpQTAxnj6EYGKoOog==", "page"=>{"position"=>"23", "name"=>"dssdvsd", "permalink"=>"dsdsv", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"4"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/4
+Completed 302 Found in 7ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/pages/4" for 127.0.0.1 at 2017-05-20 21:14:31 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:14:32 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 80ms (Views: 76.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/2/delete" for 127.0.0.1 at 2017-05-20 21:14:36 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 52ms (Views: 47.6ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/pages/2" for 127.0.0.1 at 2017-05-20 21:14:37 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bOxOm1nEygt14JxIJfQX1viodsqu7z+N8kfuT8yicjUtFRE4LSKzEVkQVAiwTaYXz48jNnfM7vHStWBdLyRMNw==", "page"=>{"position"=>"2200002", "name"=>"Second page", "permalink"=>"Second", "visible"=>"true", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"2"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/2
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/pages/2" for 127.0.0.1 at 2017-05-20 21:14:37 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:14:39 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (3.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 61ms (Views: 54.7ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/pages/3/delete" for 127.0.0.1 at 2017-05-20 21:14:41 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 52ms (Views: 48.2ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/pages/3" for 127.0.0.1 at 2017-05-20 21:14:43 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d6mq+FgF3925RJx5K2OTB5HcsWICYzDPaf+jvhpKS+KGPD4p5jDdD22ONKyVTeG0DsNE1m7hLKetLEeXVraXkw==", "page"=>{"position"=>"21321321", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"3"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/3
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2017-05-20 21:14:43 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2017-05-20 21:15:43 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:15:45 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (4.8ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 61ms (Views: 53.4ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/pages/4/delete" for 127.0.0.1 at 2017-05-20 21:15:47 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (2.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 59ms (Views: 52.8ms | ActiveRecord: 2.2ms)
+
+
+Started PATCH "/pages/4" for 127.0.0.1 at 2017-05-20 21:15:48 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FUrovHxfh2MyKyVHTSdJBh1TYmL/l75APrm5eXe7ZcaeHGsgrMGxjiPy7zayYHAYpNpbj7ZB1fkhovmrocU46g==", "page"=>{"position"=>"23", "name"=>"dssdvsd", "permalink"=>"dsdsv", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"4"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/4
+Completed 302 Found in 30ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/pages/4" for 127.0.0.1 at 2017-05-20 21:15:48 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:15:59 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 52ms (Views: 48.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/2/delete" for 127.0.0.1 at 2017-05-20 21:16:01 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 51ms (Views: 47.1ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/pages/2" for 127.0.0.1 at 2017-05-20 21:16:03 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fzA56qREnC1OIwm/aXkTd3Cbq4j63wZ4RYFjoXk5Z8Y+yWZJ0KLlN2LTwf/8wKK2R7z+dCP81wRlc+2zmr9ZxA==", "page"=>{"position"=>"2200002", "name"=>"Second page", "permalink"=>"Second", "visible"=>"true", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"2"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.6ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/2
+Completed 302 Found in 10ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/pages/2" for 127.0.0.1 at 2017-05-20 21:16:03 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 24ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:16:06 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (3.8ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 67ms (Views: 59.9ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:16:51 +1000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (1.1ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 263ms (Views: 232.1ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/pages/4/delete" for 127.0.0.1 at 2017-05-20 21:16:54 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (1.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 46ms (Views: 31.0ms | ActiveRecord: 4.3ms)
+
+
+Started PATCH "/pages/4" for 127.0.0.1 at 2017-05-20 21:16:56 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zwZMKyOD2sak7HMLCpo/ACvhh4Ihd7Oj/ntkXd4gNxdEUM+38x3sK7U1uXr13QYekmi+b2ih2BrhYCSPCF5qOw==", "page"=>{"position"=>"23", "name"=>"dssdvsd", "permalink"=>"dsdsv", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"4"}
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.9ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/4
+Completed 302 Found in 38ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/pages/4" for 127.0.0.1 at 2017-05-20 21:16:56 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 26ms (Views: 22.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:16:58 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (5.5ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 54ms (Views: 45.2ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/pages/3/delete" for 127.0.0.1 at 2017-05-20 21:17:01 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/pages/3" for 127.0.0.1 at 2017-05-20 21:17:03 +1000
+Processing by PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WCNDBn36hCpdfzO/6G1V7c51Gl5tMZPjLlMXD05DFc+pttfXw8+G+Im1m2pWQydeUWrv6gGzj4vqgPMmAr/Jvg==", "page"=>{"position"=>"21321321", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"3"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages/3
+Completed 302 Found in 7ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/pages/3" for 127.0.0.1 at 2017-05-20 21:17:03 +1000
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/show.html.erb within layouts/application
+  Rendered pages/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 50ms (Views: 44.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:17:06 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 54ms (Views: 51.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:19:19 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/4/delete" for 127.0.0.1 at 2017-05-20 21:19:21 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPage Load (1.2ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 62ms (Views: 56.1ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/pages/4" for 127.0.0.1 at 2017-05-20 21:19:22 +1000
+Processing by PagesController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ra49KI07JajGxF86JUP9xv08NO/0Fwu7WS9zPrFs6N+OrfRRx+3SBVOlW0wJlIJLlTZsR2JdaiHc6dQL8QQiXQ==", "page"=>{"position"=>"23", "name"=>"dssdvsd", "permalink"=>"dsdsv", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"4"}
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[31mDELETE FROM "admin_users_pages" WHERE "admin_users_pages"."page_id" = $1[0m  [["page_id", 4]]
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "pages" WHERE "pages"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 42ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:19:22 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 38ms (Views: 35.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/5/delete" for 127.0.0.1 at 2017-05-20 21:19:24 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPage Load (1.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 76ms (Views: 71.3ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/pages/5" for 127.0.0.1 at 2017-05-20 21:19:26 +1000
+Processing by PagesController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDmNqVhOTHT3/vtuPFv66JN1CIrCwz3iIlYonX31Xl/K1eSN6LeDNl0YGZcOLWqSwsHUmTwBhE7bDeZNm6s+iA==", "page"=>{"position"=>"4543", "name"=>"Aryana ", "permalink"=>"fdvdfvd", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"5"}
+  [1m[36mPage Load (1.3ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM "admin_users_pages" WHERE "admin_users_pages"."page_id" = $1[0m  [["page_id", 5]]
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "pages" WHERE "pages"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 12ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:19:26 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 37ms (Views: 32.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/1/delete" for 127.0.0.1 at 2017-05-20 21:19:27 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPage Load (0.7ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 72ms (Views: 65.8ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/pages/1" for 127.0.0.1 at 2017-05-20 21:19:28 +1000
+Processing by PagesController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BTwNl+Arq60LG1KfD9fPorUThZ+Mn1VbgPXOrJZyLfbF2/aV5WHFBbK2Xw2Y7/cU/V8ZdPVKk8i+qsyPevZXeg==", "page"=>{"position"=>"1000", "name"=>"First page", "permalink"=>"First", "visible"=>"true", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"1"}
+  [1m[36mPage Load (0.5ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[31mDELETE FROM "admin_users_pages" WHERE "admin_users_pages"."page_id" = $1[0m  [["page_id", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "pages" WHERE "pages"."id" = $1[0m  [["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 11ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:19:28 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/3/delete" for 127.0.0.1 at 2017-05-20 21:19:31 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPage Load (1.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 54ms (Views: 48.9ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/pages/3" for 127.0.0.1 at 2017-05-20 21:19:32 +1000
+Processing by PagesController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LTIRLD0/0RnIBGYZuQHSa3MseOU6JmQ1S5SS8MDRCb0O44dam2uuwe5LcinqBgdgLFFhLPeRRmWGKaNFKEHALQ==", "page"=>{"position"=>"21321321", "name"=>"qwerty", "permalink"=>"Test", "visible"=>"false", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"3"}
+  [1m[36mPage Load (0.4ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "admin_users_pages" WHERE "admin_users_pages"."page_id" = $1[0m  [["page_id", 3]]
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "pages" WHERE "pages"."id" = $1[0m  [["id", 3]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 9ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:19:32 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.6ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 32ms (Views: 27.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pages/2/delete" for 127.0.0.1 at 2017-05-20 21:19:33 +1000
+Processing by PagesController#delete as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPage Load (1.0ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering pages/delete.html.erb within layouts/application
+  Rendered pages/delete.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 60ms (Views: 52.8ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/pages/2" for 127.0.0.1 at 2017-05-20 21:19:35 +1000
+Processing by PagesController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DNQ3e4bznGPcpo7kl3MjXXH3cWCUrcbKC8Z4aGPE69c7ZoUqc2gR2R8FNCMSLL0KK2/25x1HZbQezIv2mSmDVA==", "page"=>{"position"=>"2200002", "name"=>"Second page", "permalink"=>"Second", "visible"=>"true", "subject_id"=>"7"}, "commit"=>"Delete", "id"=>"2"}
+  [1m[36mPage Load (0.9ms)[0m  [1m[34mSELECT  "pages".* FROM "pages" WHERE "pages"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "admin_users_pages" WHERE "admin_users_pages"."page_id" = $1[0m  [["page_id", 2]]
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "pages" WHERE "pages"."id" = $1[0m  [["id", 2]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pages
+Completed 302 Found in 12ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2017-05-20 21:19:35 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  [1m[36mPage Load (0.3ms)[0m  [1m[34mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.3ms)
+
+

@@ -1,0 +1,23 @@
+<%= link_to("<< Back to All Pages",pages_path)  %>
+<h1>Page </h1>
+
+<table>
+<tr>
+    <td>Page Position: <%= @page.position %></td>
+</tr>
+<tr>
+    <td>Page Name :<%= @page.name %></td>
+
+</tr>
+<tr>
+    <td>Permalink: <%= @page.permalink %></td>
+</tr>
+<tr>
+    <td>Visiblity : <%= @page.visible %></td>
+
+</tr>
+</tr>
+    <td>Creatd at : <%=@page.created_at %></td><td>Updated at : <%=@page.updated_at %></td>
+</tr>
+</table>
+
