@@ -1,5 +1,5 @@
 class SubjectsController < ApplicationController
-
+layout 'admin'
   def new
     @subject = Subject.new
   end

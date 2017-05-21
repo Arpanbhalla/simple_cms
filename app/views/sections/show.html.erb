@@ -1,0 +1,22 @@
+<%= link_to("<<All Sections", sections_path)  %>
+<table>
+    <tr>
+        <td>Position : <%= @section.position %></td><td>&#160;&#160;&#160;</td>
+    </tr>
+    <tr>
+        <td>Name: <%= @section.name %></td><td>&#160;&#160;&#160;</td>
+    </tr>
+    <tr>
+        <td>Visiblity : <%= @section.visible %></td><td>&#160;&#160;&#160;</td>
+    </tr>
+    <tr>
+        <td>Content type : <%= @section.content_type %></td><td>&#160;&#160;&#160;</td>
+    </tr>
+    <tr>
+        <td>Page ID :<%= @section.page_id %></td><td>&#160;&#160;&#160;</td>
+    </tr>
+    <tr>
+        <td>Created At : <%= @section.created_at %></td><td>&#160;&#160;&#160;</td>
+        <td>Updated At: <%= @section.updated_at %></td><td>&#160;&#160;&#160;</td>
+    </tr>
+</table>
