@@ -1,0 +1,37 @@
+
+<%## Table name: sections
+#
+#  id           :integer          not null, primary key
+#  section_id      :integer
+#  name         :string
+#  position     :integer
+#  visible      :boolean          default("false")
+#  content_type :string
+#  content      :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null%>
+<h1>All Sections</h1>
+<%= link_to("Create New Section",new_section_path)  %>
+<table>
+<tr>
+    <td>#</td><td>&#160;&#160;&#160;</td><td>Name</td><td>&#160;&#160;&#160;</td><td>Visible</td><td>&#160;&#160;&#160;</td>
+    <td>Content Type</td><td>&#160;&#160;&#160;</td><td>Page ID</td><td>&#160;&#160;&#160;</td><td>Action</td>
+</tr>
+
+
+<% @sections.each do |section| %>
+<tr>
+    <td><%= section.position %></td><td>&#160;&#160;&#160;</td>
+    <td><%= section.name %></td><td>&#160;&#160;&#160;</td>
+    <td><%= section.visible %></td><td>&#160;&#160;&#160;</td>
+    <td><%= section.content_type %></td><td>&#160;&#160;&#160;</td>
+    <td><%= section.page_id %></td><td>&#160;&#160;&#160;</td>
+    <td>
+    <%= link_to("Show",section_path(section.id))  %>
+    <%= link_to("Edit",edit_section_path(section.id))  %>
+    <%= link_to("Delete",delete_section_path(section.id))  %>
+    </td>
+</tr>
+<% end %>
+
+</table>

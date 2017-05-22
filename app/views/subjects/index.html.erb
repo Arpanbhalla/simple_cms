@@ -1,0 +1,28 @@
+<% if !flash[:notice].blank? %>
+<%= flash[:notice] %>
+<% end %>
+<h1>Subjects</h1>
+<%= link_to("Add new Subject", new_subject_path)  %> <br /><br />
+
+<table>
+    <tr>
+        <td>#</td><td>&#160;&#160;&#160;&#160;</td><td>&#160;&#160;&#160;&#160;</td><td>Subject</td><td>&#160;&#160;&#160;&#160;</td><td>&#160;&#160;&#160;&#160;</td><td>Visible</td><td>&#160;&#160;&#160;&#160;</td><td>Pages</td><td>&#160;&#160;&#160;&#160;</td><td>Actions</td>
+    </tr>
+    <% @subjects.each do |subject| %>
+        <tr>
+            <td><%=subject.position%></td>
+            <td>&#160;&#160;&#160;&#160;</td><td>&#160;&#160;&#160;&#160;</td>
+            <td><%=subject.name%></td>
+            <td>&#160;&#160;&#160;&#160;</td><td>&#160;&#160;&#160;&#160;</td>
+            <td><%= subject.visible ? 'Yes' : 'No' %></td>
+            <td>&#160;&#160;&#160;&#160;&#160;</td>
+            <td><%=subject.pages.size%></td>
+            <td>&#160;&#160;&#160;&#160;</td>
+            <td>
+            <%= link_to("Show", subject_path(subject.id))  %>
+            <%= link_to("Edit", edit_subject_path(subject.id))  %>
+            <%= link_to("Delete", delete_subject_path(subject.id))  %>
+            </td>
+        </tr>
+    <% end %>
+</table>

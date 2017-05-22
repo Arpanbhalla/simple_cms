@@ -1,0 +1,31 @@
+<% @page_title = "All Pages" %>
+<h1>All Pages</h1>
+
+<%= link_to("Create New Page",new_page_path)  %>
+<tr>
+    <td><br/><br/></td>
+</tr>
+
+<table>
+<tr>
+    <td>#</td><td>&#160;&#160;&#160;</td><td>Name</td><td>&#160;&#160;&#160;</td><td>Visible</td><td>&#160;&#160;&#160;</td><td>PermaLink</td>    <td>&#160;&#160;</td>
+<td>  Actions</td>
+</tr>
+<% @pages.each do |page| %>
+<tr>
+    <td><%= page.position %></td>
+    <td>&#160;&#160;&#160;</td>
+    <td><%= page.name %></td>
+    <td>&#160;&#160;&#160;</td>
+    <td><%= page.permalink %></td>
+    <td>&#160;&#160;&#160;</td>
+    <td><%= page.visible %></td>
+    <td>&#160;&#160;</td>
+    <td>
+    <%= link_to("Show",page_path(page.id))  %>
+    <%= link_to("Edit", edit_page_path(page.id))  %>
+    <%= link_to("Delete",delete_page_path(page.id))  %>
+    </td>
+</tr>
+<% end %>
+</table>

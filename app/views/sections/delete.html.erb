@@ -1,0 +1,31 @@
+<h1>Sections Deleter</h1>
+<%=form_for(@section, :method=>'delete') do |f| %>
+
+<table>
+
+    <tr>
+        <td>Position : <%= f.number_field(:position) %>
+</td>
+    </tr>
+    <tr>
+        <td>Name: <%= f.text_field(:name) %>
+</td>
+    </tr>
+    <tr>
+        <td>visiblity<%= f.text_field(:visible) %>
+</td>
+    </tr>
+    <tr>
+        <td>Content type<%= f.text_field(:content_type) %>
+</td>
+    </tr>
+    <tr>
+        <td>Page ID<%= f.number_field(:page_id) %>
+</td>
+    </tr>
+    <tr>
+        <td><%= submit_tag("Delete") %>
+</td>
+    </tr>
+</table>
+    <% end %>

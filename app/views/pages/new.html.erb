@@ -1,0 +1,11 @@
+<h1>Create New Page</h1>
+
+<%= form_for(@page) do |f| %>
+
+
+    <%= render(:partial => 'form', :locals => {:f => f}) %>
+
+    <%= submit_tag("Create")%>
+<% end %>
+
+ 
