@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'manyusers/index'
+
+  get 'manyusers/show'
+
+  get 'manyusers/edit'
+
+  get 'manyusers/update'
+
+  get 'manyusers/delete'
+
   get 'users/index'
 
   get 'users/show'
