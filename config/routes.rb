@@ -1,5 +1,25 @@
 Rails.application.routes.draw do
 
+  get 'manyusers/index'
+
+  get 'manyusers/show'
+
+  get 'manyusers/edit'
+
+  get 'manyusers/update'
+
+  get 'manyusers/delete'
+
+  get 'users/index'
+
+  get 'users/show'
+
+  get 'users/edit'
+
+  get 'users/update'
+
+  get 'users/delete'
+
   get 'admin', :to => 'access#menu'
   get 'access/menu'
   post 'access/login'
